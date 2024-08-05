@@ -148,6 +148,7 @@ input[type="tel"]:focus,
 input[type="email"]:focus {
   border-color: #596d48;
   border-width: 2px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   outline: none;
 }
 
