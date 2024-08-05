@@ -36,7 +36,7 @@ a {
 }
 
 .left {
-  width: 40vw;
+  width: 35%;
   background-image: url("./images/plants.jpg");
   background-size: cover;
   color: white;
@@ -52,6 +52,7 @@ body,
 
 .right {
   height: 100%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -145,8 +146,9 @@ input {
 input[type="text"]:focus,
 input[type="tel"]:focus,
 input[type="email"]:focus {
-  border-color: blue;
+  border-color: #596d48;
   border-width: 2px;
+  outline: none;
 }
 
 input:invalid {
@@ -162,4 +164,8 @@ button[type="submit"] {
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 16px 32px;
   padding: 8px 24px;
+}
+
+p > a {
+  color: #596d48;
 }
